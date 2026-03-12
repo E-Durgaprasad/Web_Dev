@@ -1,0 +1,36 @@
+.container{
+    border:5px solid cornflowerblue;
+    height: 500px;
+    display: flex;
+
+    justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+
+    align-items: center;
+    align-items: start;
+    align-items: end;
+    
+}
+
+.box {
+    border:4px solid chocolate;
+    margin:50px;
+
+    min-height: 100px;
+    width: 200px;
+
+    text-align: center;
+}
+.box2{
+    border:4px solid chocolate;
+    margin:50px;
+    min-height: 100px;
+    width: 200px;
+    text-align: center;
+
+}

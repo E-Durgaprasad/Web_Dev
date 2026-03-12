@@ -1,0 +1,92 @@
+body{
+    background-image: url(https://www.get-licensed.co.uk/get-daily/wp-content/uploads/2019/08/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+.head{
+    color: rgb(212, 27, 27);
+    font-size: 40px;
+    margin-left: 10%;
+    font-style:initial;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container{
+    width:210px;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-right: 15%;
+
+}
+.button{
+    color:white;
+    font-size: 17px;
+    border-radius: 6px;
+    background-color: red;
+    border-style:groove;
+    border-color: red;
+    width: 100px;
+    height: 30px ;
+    }
+.b2{
+    border-radius: 6px;
+    width: 100px;
+    height: 30px;
+}
+.one{
+    color:white;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 3px;
+    margin-top: 150px;
+}
+.two{
+    color: white;
+    font-size:30px;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 40px;
+}
+.three{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 1px;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    
+}
+.search{
+    color:white
+}
+
+.container3 {
+    margin-left: 520px;
+    display:flex;
+    height: 40px;
+    width: 505px;
+    justify-content: space-between;
+    margin-top: 1px;
+    
+}
+
+.su{
+    border-radius: 5px;
+    text-align: right;
+    color: white;
+    font-size: 18px;
+    background-color: red;
+    border-color: red;
+    
+}
+.box{
+    border-radius: 5px;
+    border-color: white;
+    text-align: left;
+    font-size: 15px;
+    width: 370px;
+    background-color: c;
+}

@@ -1,0 +1,13 @@
+.vax {
+    color: green;
+}
+h3 {
+    color: yellow;
+}
+.gra {
+    border-style: solid;
+    border-color: black;
+    background-color: aqua;
+    border-width: 2px;
+    color: red;
+}

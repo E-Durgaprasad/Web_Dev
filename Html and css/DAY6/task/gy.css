@@ -1,0 +1,105 @@
+*{
+    padding: 0%;
+    
+}
+header{
+padding:2em 0;
+font-size: 25px;
+
+}
+.navbar {
+    
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+
+    background: white;
+
+    box-shadow: 0 0 10px gray;
+}
+.navbar a{
+    color: black;
+    font-size: large;
+    justify-content: space-evenly; 
+    padding:.5em 2em;
+    text-decoration: none;
+}
+
+.hero{
+    background-image:url(https://www.w3schools.com/w3images/architect.jpg);
+    background-repeat: no-repeat;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.Projects{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr;
+    padding: 1em;
+    gap: 10px;
+    
+}
+img{
+    width: 100%;
+}
+
+.About{
+    border:2px solid red;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 1em;
+    gap: 10px;
+}
+
+.cardcontainer{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 1em;
+    gap:10px;
+    
+}
+
+.contact form {
+    padding: 1em;
+
+    display: grid;
+    gap: 1em;
+}
+
+form{
+
+    padding: 5em;
+    
+}
+form input[type="submit"] {
+    background: black;
+    color: white;
+    width: fit-content;
+}
+
+footer {
+    padding: 3em;
+    text-align: center;
+
+    background: black;
+    color: white;
+}
+@media (max-width: 768px) {
+    .Projects, 
+    .cardcontainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 577px) {
+    .Projects,
+    .cardcontainer {
+        grid-template-columns: 1fr;
+    }
+}

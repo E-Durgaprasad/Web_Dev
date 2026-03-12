@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Form</title>
+    <link rel="stylesheet" href="LOGIN.CSS">
+</head>
+<body>
+
+    <div class="container">
+        <form class="form" onsubmit="validateForm(event)">
+
+            <div class="input-group">
+                <label>Username</label>
+                <input type="text" name="username" placeholder="Enter your username">
+                <small class="error"></small>
+            </div>
+
+            <div class="input-group">
+                <label>Password</label>
+                <input type="password" name="password" placeholder="Enter your password">
+                <small class="error"></small>
+            </div>
+
+            <button type="submit">Login</button>
+        </form>
+    </div>
+
+<script src="LOGIN.JS"></script>
+</body>
+</html>

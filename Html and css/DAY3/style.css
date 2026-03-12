@@ -1,0 +1,27 @@
+.pro{
+    color: blue;
+}
+
+table,
+th,
+td {
+    border: 2px solid black;
+    border-collapse:collapse ;
+
+    padding: 1em;
+}
+.para {
+    border: 2px solid black;
+    padding: 2em;
+
+    width:30%;
+    
+    text-align: justify;
+
+    background-color: antiquewhite;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/000/217/363/small/vector-colourful-landscape-illustration.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
