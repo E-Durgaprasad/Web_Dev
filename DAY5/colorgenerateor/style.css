@@ -1,0 +1,23 @@
+#box {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    width: 20%;
+    height: 200px;
+    margin-left: 40%;
+    background-color: lightgray;
+    margin-top: 150px;
+    text-align: center;
+    line-height: 200px;
+    font-size: 20px;
+    border-radius: 10px;`
+    
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
